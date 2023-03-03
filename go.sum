@@ -28,6 +28,10 @@ github.com/bitwormhole/starter-gorm-sqlserver v0.0.5 h1:lZ9dsYGbXtU72WE98+A59puk
 github.com/bitwormhole/starter-gorm-sqlserver v0.0.5/go.mod h1:1DX8/lazC2ybQNGoObar0HeHDprReF4o7oX+zPxiev8=
 github.com/bitwormhole/starter-restful v0.1.2 h1:L5A4e+ABe2XXYX+ghNq7IJ+QI3WyVkNtgg1hMYTkwt0=
 github.com/bitwormhole/starter-restful v0.1.2/go.mod h1:LYs12GhcdTvInF4kIhd73CpCN411MnjgJkyjE9Geoe0=
+github.com/bitwormhole/wpm v0.0.0-20230303092941-71b59191a0a3 h1:wCpqFK7nerQnkjJVaIdi2BZRPiuTdUfTG+v7ihymuI4=
+github.com/bitwormhole/wpm v0.0.0-20230303092941-71b59191a0a3/go.mod h1:+4L3nozWOCMNCubTrfRusLzQqqScIiPcNaT3eRx96bY=
+github.com/bitwormhole/wpm v0.0.0-20230303095510-d7dfe8dcdfd8 h1:izlfCgOIrUmg6oKPHB/bI6X9WY94Wz5k9DOAVktNTsk=
+github.com/bitwormhole/wpm v0.0.0-20230303095510-d7dfe8dcdfd8/go.mod h1:+4L3nozWOCMNCubTrfRusLzQqqScIiPcNaT3eRx96bY=
 github.com/bitwormhole/wpm v0.0.11 h1:940gdgETsbSw5S4cE6yV3AuhLmxLmPjYL6rEqt4A1Dw=
 github.com/bitwormhole/wpm v0.0.11/go.mod h1:+4L3nozWOCMNCubTrfRusLzQqqScIiPcNaT3eRx96bY=
 github.com/bitwormhole/wpm v0.0.12 h1:2S2T2oxGSyDfnXlsEz9YY7A28h/LPvGN140ApgMVgOc=
