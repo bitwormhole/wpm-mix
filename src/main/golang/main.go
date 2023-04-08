@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	m := wpmmix.Module()
+	m := wpmmix.ModuleServer()
 	service.SetAppModule(m)
 
 	i := starter.InitApp()

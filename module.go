@@ -10,16 +10,16 @@ import (
 
 const (
 	theModuleName    = "github.com/bitwormhole/wpm-mix"
-	theModuleVersion = "v0.0.15"
-	theModuleRevison = 8
+	theModuleVersion = "v0.1.1.1"
+	theModuleRevison = 10
 	theModuleResPath = "src/main/resources"
 )
 
 //go:embed "src/main/resources"
 var theModuleResFS embed.FS
 
-// Module ...
-func Module() application.Module {
+// ModuleServer ...
+func ModuleServer() application.Module {
 
 	mb := application.ModuleBuilder{}
 
@@ -29,8 +29,23 @@ func Module() application.Module {
 
 	mb.Resources(collection.LoadEmbedResources(&theModuleResFS, theModuleResPath))
 	mb.OnMount(nil)
+	mb.Dependency(wpm.ModuleServer())
 
-	mb.Dependency(wpm.Module())
+	return mb.Create()
+}
+
+// ModuleBoot ...
+func ModuleBoot() application.Module {
+
+	mb := application.ModuleBuilder{}
+
+	mb.Name(theModuleName)
+	mb.Version(theModuleVersion)
+	mb.Revision(theModuleRevison)
+
+	mb.Resources(collection.LoadEmbedResources(&theModuleResFS, theModuleResPath))
+	mb.OnMount(nil)
+	mb.Dependency(wpm.ModuleBoot())
 
 	return mb.Create()
 }
