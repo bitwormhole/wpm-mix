@@ -3,16 +3,16 @@ module github.com/bitwormhole/wpm-mix
 go 1.18
 
 require (
-	github.com/bitwormhole/starter v0.1.6
-	github.com/bitwormhole/wpm v0.0.0-20230408130655-c03cbb74c164
+	github.com/bitwormhole/starter v0.1.8
+	github.com/bitwormhole/wpm v0.1.5
 )
 
 require (
-	bitwormhole.com/starter/afs v0.0.7 // indirect
+	bitwormhole.com/starter/afs v0.0.8 // indirect
 	bitwormhole.com/starter/base v0.0.1 // indirect
 	bitwormhole.com/starter/cli v0.0.9 // indirect
 	bitwormhole.com/starter/vlog v0.0.1 // indirect
-	github.com/bitwormhole/gitlib v0.0.15 // indirect
+	github.com/bitwormhole/gitlib v0.0.16 // indirect
 	github.com/bitwormhole/starter-gin v0.1.4 // indirect
 	github.com/bitwormhole/starter-gorm v0.0.8 // indirect
 	github.com/bitwormhole/starter-gorm-mysql v0.0.5 // indirect
