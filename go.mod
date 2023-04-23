@@ -3,8 +3,8 @@ module github.com/bitwormhole/wpm-mix
 go 1.18
 
 require (
-	github.com/bitwormhole/starter v0.1.8
-	github.com/bitwormhole/wpm v0.1.5
+	github.com/bitwormhole/starter v0.1.9
+	github.com/bitwormhole/wpm v0.1.6
 )
 
 require (
