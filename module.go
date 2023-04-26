@@ -10,8 +10,8 @@ import (
 
 const (
 	theModuleName    = "github.com/bitwormhole/wpm-mix"
-	theModuleVersion = "v0.1.7"
-	theModuleRevison = 13
+	theModuleVersion = "v0.1.8"
+	theModuleRevison = 14
 	theModuleResPath = "src/main/resources"
 )
 
